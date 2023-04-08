@@ -1,0 +1,424 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <div class="container">
+        <header id="header">
+            <div id="leaf-header">
+                <i class="fa-brands fa-pagelines" ></i>
+            </div>
+            <div id="lines-header">
+                <i class="fa-solid fa-align-left"></i>
+            </div>
+            <div id="input-header">
+                <label for="input-header-inside-name"><i class="fa-solid fa-magnifying-glass"></i></label>
+                <input  id="input-header-inside" type="text" name="input-header-inside-name" placeholder="Search User, Events and more">
+            </div>
+            <div id="right-header">
+                <select id="select-header">
+                    <option value="">English</option>
+                    <option value="">Portugues</option>
+                    <option value="">Spanish</option>
+                </select>
+                <i class="fa-solid fa-gear fa"></i>
+                <div id="bell">
+                    <i  class="fa-solid fa-bell fa" ></i>
+                    <div id="number-bell">
+                        <p>1</p>
+                    </div>
+                </div>
+                <i class="fa-solid fa-circle-user"></i>
+            </div>
+        </header>
+
+        <nav id="nav">
+            <div id="left-nav">
+                <p>&lt; Back</p>
+            </div>
+        <div id="mid-nav">
+            <p class="options-nav">Home /</p>
+            <p class="options-nav">Apps </p>
+            <p class="options-nav">/File manager</p>
+        </div>
+        <div id="right-nav">
+            <div id="import-nav">
+                <i class="fa-solid fa-file-import "></i>
+                <p >import</p>
+            </div>
+            <div id="export-nav">
+                <i class="fa-solid fa-file-export"></i>
+                <p>export</p>
+            </div>
+           <select name=""  id="select-nav">
+            <option value="">categories</option>
+           </select>
+        </div>
+        </nav>
+
+        <div class="content">
+            <aside id="aside">
+                <div id="icons-aside">
+                    <div id="house-aside" class="borderRed-icons-aside">
+                        <i class="fa-solid fa-house "></i>
+                    </div>
+                    <div class="borderRed-icons-aside">
+                        <i class="fa-solid fa-building "></i>
+                    </div>
+                    <div class="borderRed-icons-aside">
+                        <i class="fa-solid fa-hourglass "></i>
+                    </div>
+                    <div class="borderRed-icons-aside">
+                        <i class="fa-solid fa-envelope "></i>
+                    </div>
+                    <div class="borderRed-icons-aside">
+                        <i class="fa-solid fa-receipt "></i>
+                    </div>
+                    <div class=" borderRed-icons-aside">
+                        <i class="fa-regular fa-calendar-days "></i>
+                    </div>
+                    <div id="notification" class="borderRed-icons-aside">
+                        <i class="fa-regular fa-comment ">
+                            <div>2</div>
+                        </i>    
+                    </div>
+                    <div class="borderRed-icons-aside">
+                        <i class="fa-solid fa-gear "></i>
+                    </div>
+                    <div class="borderRed-icons-aside">
+                        <i class="fa-solid fa-user-tie "></i>
+                    </div>    
+                </div>
+                <div id="icon-bottom-aside">
+                    <i class="fa-solid fa-circle-user "></i>
+                    <p>Kauan</p>
+                    <p>•</p>
+                </div>
+            </aside>
+            <section id="sec">
+                <h1 id="h1-sec">File Manager</h1>
+                
+                <div id="options-sec">
+                    <div id="house-sec">
+                        <i class="fa-solid fa-house "></i>
+                        <p class="p-sec">Home</p>
+                    </div>
+                    <div id="files-sec" class="icons-sec">
+                        <i class="fa-solid fa-file "></i>
+                        <p class="p-sec">Files</p>
+                    </div>
+                    <div class="icons-sec">
+                        <i class="fa-solid fa-star "></i>
+                        <p class="p-sec">Starred</p>
+                    </div>
+                    <div class="icons-sec">
+                        <i class="fa-solid fa-share-nodes "></i>
+                        <p class="p-sec">Shared</p>
+                    </div>
+                    <div class="icons-sec">
+                        <i class="fa-solid fa-folder "></i>
+                        <p class="p-sec">Recent</p>
+                    </div>
+                    <div class="icons-sec">
+                        <i class="fa-solid fa-trash-can "></i>
+                        <p class="p-sec">Recovery <span id="recovery-notification">12</span></p>
+                    </div>
+                    <div class="icons-sec">
+                        <i class="fa-solid fa-gear "></i>
+                        <p class="p-sec">Settings</p>
+                    </div>
+                    <div class="icons-sec">
+                        <i class="fa-solid fa-file-zipper "></i>
+                        <p class="p-sec">Zip files</p>
+                    </div>
+                    <div id="buttons-sec">
+                        <p id="button-upload-sec-color" class="button-inside-sec">Upload</p> 
+                        <p id="button-create-sec-color" class="button-inside-sec">create</p>
+                    </div>
+                    <div id="dashed-sec"></div>
+                    <div id="img-sec">
+                        <div>
+                            <img src="imgDash/WhatsApp Image 2023-04-03 at 21.03.59.jpeg" width="120px">
+                        </div>
+                        <div id="img-sec-left">
+                            <div id="storage">
+                                <i class="fa-regular fa-hard-drive"></i>
+                                <span>Storage</span>
+                            </div>
+                            <div id="upgrade">
+                                <a href="">Upgrade</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="progress-bar">
+                        <div> 
+                            <div></div>
+                        </div>
+                        <p>08,25 GB of 20 GB used</p>
+                    </div>
+                </div>
+                <div id="personal-plan-sec">
+                    <div>
+                        <div id="P-personal-plan-sec">
+                            <p>Personal Plan</p>
+                            <p>Only you</p>
+                        </div>
+                        <div>
+                            <a href="">Upgrade Plan - See Details</a>
+                        </div>
+                    </div>
+                    <div>
+                        <i class="fa-solid fa-chevron-up"></i>
+                        <i class="fa-solid fa-chevron-down"></i>
+                    </div>
+                </div>
+            </section>
+            <main id="main">
+                <div id="Create-New-folder">
+                    <a href="#">Create New Folder</a>
+                </div>
+                <div id="firstLine-main">
+                    <div id="all-option1">
+                        <div id="option1" class="options-firstLine-main">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-images "></i>
+                            <i class="fa-solid fa-ellipsis-vertical"></i>
+                        </div>
+                        <p id="option1p">Images</p>
+                    </div>
+                    <div id="all-option2">
+                        <div id="option2" class="options-firstLine-main">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-book"></i>
+                            <i class="fa-solid fa-ellipsis-vertical"></i>
+                            </div>
+                            <p id="option2p">Documents</p>
+                    </div>
+                    <div id="all-option3">
+                        <div id="option3" class="options-firstLine-main">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-brands fa-youtube "></i>
+                            <i class="fa-solid fa-ellipsis-vertical"></i>
+                        </div>
+                        <p id="option3p">Videos</p>
+                    </div>
+                    <div id="all-option4">
+                        <div id="option4" class="options-firstLine-main">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-file-pdf "></i>
+                            <i class="fa-solid fa-ellipsis-vertical"></i>
+                        </div>
+                        <p id="option4p">PDF files</p>
+                    </div>
+                    <div id="all-option5">
+                        <div id="option5" class="options-firstLine-main">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-file-audio "></i>
+                            <i class="fa-solid fa-ellipsis-vertical"></i>
+                        </div>
+                        <p id="option5p">Audio</p>
+                    </div>
+                </div>
+                <div id="recent-folder">
+                    <h2>Recent Folder</h2>
+                    <div id="recent-select">
+                        <select name="" id="">
+                            <option value="">recent</option>
+                        </select>
+                        <i class="fa-solid fa-ellipsis"></i>
+                    </div>
+                </div>
+                <div id="secondLine-main">
+                    <div class="options-secondLine-main">
+                        <div class="first-options-secondLine-main">
+                            <i  class="fa-solid fa-folder-closed folder"></i>
+                            <p>Project Details</p>
+                            <i class="fa-solid fa-ellipsis-vertical three-points"></i>
+                        </div>
+                        <div class="second-options-secondLine-main">
+                            <p>250MB • 5 Members • <span>Team plan</span></p>
+                        </div>
+                        <div class="third-options-secondLine-main">
+                            <div class="icons-third-options-secondLine-main1">
+                                <i class="fa-solid fa-circle-user"></i>
+                                <i class="fa-solid fa-circle-user"></i>
+                                <i class="fa-solid fa-circle-user"></i>
+                                <i class="fa-solid fa-circle-user"></i>
+                                <i class="fa-solid fa-circle-user "></i>
+                            </div>
+                            <span>12 Files</span>
+                        </div>
+                    </div>
+                    <div class="options-secondLine-main">
+                        <div class="first-options-secondLine-main">
+                            <i  class="fa-solid fa-folder-closed folder"></i>
+                            <p>Client Meeting</p>
+                            <i class="fa-solid fa-ellipsis-vertical three-points"></i>
+                        </div>
+                        <div class="second-options-secondLine-main">
+                            <p>100MB • 2 Members • <span>Team plan</span></p>
+                        </div>
+                        <div class="third-options-secondLine-main">
+                            <div class="icons-third-options-secondLine-main1">
+                                <i class="fa-solid fa-circle-user"></i>
+                                <i class="fa-solid fa-circle-user"></i>
+                            </div>
+                            <span>05 Files</span>
+                        </div>
+                    </div>
+                    <div class="options-secondLine-main">
+                        <div class="first-options-secondLine-main">
+                            <i  class="fa-solid fa-folder-closed folder"></i>
+                            <p>Payment</p>
+                            <i class="fa-solid fa-ellipsis-vertical three-points"></i>
+                        </div>
+                        <div class="second-options-secondLine-main">
+                            <p>188MB • 6 Members • <span>Team plan</span></p>
+                        </div>
+                        <div class="third-options-secondLine-main">
+                            <div class="icons-third-options-secondLine-main1">
+                                <i class="fa-solid fa-circle-user"></i>
+                                <i class="fa-solid fa-circle-user"></i>
+                                <i class="fa-solid fa-circle-user"></i>
+                                <i class="fa-solid fa-circle-user"></i>
+                                <i class="fa-solid fa-circle-user "></i>
+                                <i class="fa-solid fa-circle-user "></i>
+                            </div>
+                            <span>12 Files</span>
+                        </div>
+                    </div>
+                </div>
+                <div id="all-files">
+                    <h3>Files</h3>
+                    <div id="all-files-right">
+                        <select name="" id="">
+                            <option value="">All Files</option>
+                        </select>
+                        <i class="fa-solid fa-ellipsis"></i>
+                    </div>
+                </div>
+                <div id="thirdLine-main">
+                    <div class="options-thirdLine-main">
+                        <div class="files-thirdLine-main">
+                            <i class="fa-solid fa-file"></i>
+                            <span>Project Quotation.xlsx</span>
+                            <i class="fa-solid fa-ellipsis-vertical"></i>
+                        </div>
+                        <div>
+                            <p>20 Aug • 5 Members • 2MB</p>
+                            <i class="fa-solid fa-star"></i>
+                        </div>
+                    </div>
+                    <div class="options-thirdLine-main">
+                        <div class="files-thirdLine-main">
+                            <i class="fa-solid fa-file"></i>
+                            <span>Project-detailz.zip</span>
+                            <i class="fa-solid fa-ellipsis-vertical"></i>
+                        </div>
+                        <div>
+                            <p>20 Aug • 3 Members • 3MB</p>
+                            <i class="fa-solid fa-star"></i>
+                        </div>
+                    </div>
+                    <div class="options-thirdLine-main">
+                        <div class="files-thirdLine-main">
+                            <i class="fa-solid fa-file"></i>
+                            <span>Banners.ai</span>
+                            <i class="fa-solid fa-ellipsis-vertical"></i>
+                        </div>
+                        <div>
+                            <p>20 Aug • 4 Members • 25MB</p>
+                            <i class="fa-solid fa-star"></i>
+                        </div>
+                    </div>
+                </div>
+                <div id="fourthLine-main">
+                    <table >
+                        <tr>
+                            <th class="checkbox-table"><input type="checkbox" name="" id=""></th>
+                            <th class="name-firstLIne">NAME</th>
+                            <th>CREATED BY</th>
+                            <th> SIZE</th>
+                            <th>CREATED</th>
+                            <th>LAST MODIFIED</th>
+                            <th>ACTION</th>
+                        </tr>
+                        <tr>
+                            <td class="checkbox-table"><input type="checkbox" name="" id=""></td>
+                            <td class="name-firstLIne">Meeting.Mp4</td>
+                            <td>
+                                <div class="createdBy-table-main">
+                                    <div class="circleUser-table-main">
+                                        <i class="fa-solid fa-circle-user"></i>
+                                    </div>
+                                    <div class="createdBy-pS-table-main">
+                                        <p>Jennifer</p>
+                                        <p>Client</p>
+                                    </div>
+                                </div>
+                            </td>
+                            <td>35MB</td>
+                            <td class="color-grey">20-08-2022</td>
+                            <td class="color-grey">20-08-2022</td>
+                            <td class="action">
+                                <i class="fa-solid fa-link"></i>
+                                <i class="fa-solid fa-ellipsis-vertical"></i>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="checkbox-table"><input type="checkbox" name="" id=""></td>
+                            <td class="name-firstLIne">Mobile Application APK</td>
+                            <td>
+                                <div class="createdBy-table-main">
+                                    <div class="circleUser-table-main">
+                                        <i class="fa-solid fa-circle-user"></i>
+                                    </div>
+                                    <div class="createdBy-pS-table-main">
+                                        <p>Jack</p>
+                                        <p>Manager</p>
+                                    </div>
+                                </div>
+                            </td>
+                            <td>16MB</td>
+                            <td class="color-grey">15-08-2022</td>
+                            <td class="color-grey">19-08-2022</td>
+                            <td class="action">
+                                <i class="fa-solid fa-link"></i>
+                                <i class="fa-solid fa-ellipsis-vertical"></i>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="checkbox-table"><input type="checkbox" name="" id=""></td>
+                            <td class="name-firstLIne">Dashboard.HTML</td>
+                            <td>
+                                <div class="createdBy-table-main">
+                                    <div class="circleUser-table-main">
+                                        <i class="fa-solid fa-circle-user"></i>
+                                    </div>
+                                    <div class="createdBy-pS-table-main">
+                                        <p>Cristopher JD</p>
+                                        <p>Client</p>
+                                    </div>
+                                </div>
+                            </td>
+                            <td>256KB</td>
+                            <td class="color-grey">11-08-22</td>
+                            <td class="color-grey">20-08-22</td>
+                            <td class="action">
+                                <i class="fa-solid fa-link"></i>
+                                <i class="fa-solid fa-ellipsis-vertical"></i>
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+            </main>
+        </div>
+    </div>
+</body>
+</html>
